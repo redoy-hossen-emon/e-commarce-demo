@@ -1,0 +1,134 @@
+ @media only screen and (max-width: 768px) {
+   
+  
+  section#home .container div {
+     width: 100%;
+   }
+
+   section#home .container {
+     flex-direction: column;
+   }
+
+   .selectItems {
+     position: absolute;
+     z-index: 99;
+     transition: .3s;
+     transform: scaleY(0);
+     transform-origin: top;
+   }
+
+   .menuWrapper {
+     display: none;
+     width: 100%;
+     height: max-content;
+     display: block;
+     background: white;
+     z-index: 999;
+     position: absolute;
+     top: 145px;
+     transform: scaleY(0);     
+  transform-origin: top;
+     transition: .3s;
+
+   }
+
+   .leftMenu ul {
+     display: block;
+
+   }
+
+   .leftMenu ul li {
+     padding: 23px 55px;
+     font-size: 28px;
+     justify-content: space-between;
+     border-bottom: 2px solid wheat;
+
+   }
+
+   .rightMenu {
+     padding: 30px;
+     width: 100%;
+   }
+
+   .menuIcon {
+     display: block;
+     transition: .3s;
+    
+   }
+   .rotate{ 
+    transform: rotate(-90deg);
+
+   }
+
+   .treackDaly span {
+     display: none;
+   }
+
+   .sidebar {
+     display: none;
+   }
+   .sliders{margin: 0;}
+
+   #saleProdact .container {
+     column-count: 1;
+   }
+
+   #adSec .container {
+     height: max-content;
+     flex-direction: column;
+   }
+
+   #adSec .container div {
+     width: 100%;
+     margin-top: 30px;
+   }
+   .adBanner2{margin: 0;}
+
+   .allBlog {
+     display: inline-block;
+   }
+
+   .blogItem {
+     width: 100%;
+     border: 1px solid violet;
+     border-radius: 5px;
+     margin: 10px 0px;
+   }
+
+   .allClint {
+     display: flow;
+     column-count: 2;
+   }
+
+   .allClint .clintSec {
+     width: 100%;
+     margin-bottom: 45px;
+   }
+
+   .allClint .clintSec .upSec {
+     margin-bottom: 45px;
+
+   }
+
+   .allInsta {
+     display: flow;
+     column-count: 2;
+   }
+
+   .instaItem {
+     width: 100%;
+     margin-top: 10px;
+   }
+
+   .allInsta :first-child {
+     margin-top: 0;
+   }
+
+
+
+
+
+
+
+
+ }
