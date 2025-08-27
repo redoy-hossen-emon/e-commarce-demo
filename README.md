@@ -13,8 +13,8 @@ A responsive front-end clone of the Walmart e-commerce website built using only 
 
 ## 📸 Demo Preview
 
-for large device: https://github.com/redoy-hossen-emon/e-commarce-demo/blob/main/large%20device%20view.png
-for small device: https://github.com/redoy-hossen-emon/e-commarce-demo/blob/main/small%20device%20view.png
+- for large device: https://github.com/redoy-hossen-emon/e-commarce-demo/blob/main/large%20device%20view.png
+- for small device: https://github.com/redoy-hossen-emon/e-commarce-demo/blob/main/small%20device%20view.png
 ## 🔧 Technologies Used
 
 - **HTML5** — for semantic structure  
